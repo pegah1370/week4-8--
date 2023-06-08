@@ -1,0 +1,165 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 1px auto;
+  max-width: 90%;
+}
+
+.hero{
+  background:#f9f7fe;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hello{
+  font-family: "Poppins", sans-serif;;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+h1 {
+  font-size: 96px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+  font-family: "Playfair Display", serif;;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+.btn-branding {
+  background: #6c63ff;
+  border-radius: 4px;
+  color: white;
+  font-size: 22px;
+  line-height: 27px;
+  padding: 16px 37px;
+  text-align: center;
+  vertical-align: middle;
+}
+  .btn{
+  display: inline-block;
+  font-weight: 400;
+  
+  }
+
+  .mb-5 {
+      margin-bottom: 3rem !important;
+      font-size: 24px;
+      line-height: 2;
+    }
+
+
+
+h2 {
+  font-size: 48px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.contact-link1 {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.explane {
+  justify-content: center;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-link1 {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+    width: 80%;
+  }
+}
